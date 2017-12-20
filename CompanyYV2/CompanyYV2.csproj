@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{0263999F-462A-4D00-A766-CF357D6DB66F}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>CompanyYV2</RootNamespace>
+    <AssemblyName>CompanyYV2</AssemblyName>
+    <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ExternalConsole>true</ExternalConsole>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ExternalConsole>true</ExternalConsole>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data.OracleClient" />
+    <Reference Include="MySql.Data">
+      <HintPath>MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Master.cs" />
+    <Compile Include="Classes\Users\UserData.cs" />
+    <Compile Include="Database\DBConnector.cs" />
+    <Compile Include="Classes\Users\UserManager.cs" />
+    <Compile Include="Classes\Jobs\JobsManager.cs" />
+    <Compile Include="Tools\Texts.cs" />
+    <Compile Include="Floors\Floor.cs" />
+    <Compile Include="Floors\Floor1.cs" />
+    <Compile Include="Floors\Floor2.cs" />
+    <Compile Include="Tools\Status.cs" />
+    <Compile Include="Classes\Jobs\JobsData.cs" />
+    <Compile Include="Floors\Floor3.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Classes\" />
+    <Folder Include="Classes\Users\" />
+    <Folder Include="Database\" />
+    <Folder Include="Classes\Jobs\" />
+    <Folder Include="Tools\" />
+    <Folder Include="Floors\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+</Project>

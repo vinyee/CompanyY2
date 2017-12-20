@@ -1,0 +1,7 @@
+/Users/vincentmicrosoft/Projects/CompanyYV2/CompanyYV2/obj/x86/Debug/CompanyYV2.csprojResolveAssemblyReference.cache
+/Users/vincentmicrosoft/Projects/CompanyYV2/CompanyYV2/obj/x86/Debug/CompanyYV2.csproj.CoreCompileInputs.cache
+/Users/vincentmicrosoft/Projects/CompanyYV2/CompanyYV2/bin/Debug/CompanyYV2.exe
+/Users/vincentmicrosoft/Projects/CompanyYV2/CompanyYV2/bin/Debug/CompanyYV2.pdb
+/Users/vincentmicrosoft/Projects/CompanyYV2/CompanyYV2/bin/Debug/MySql.Data.dll
+/Users/vincentmicrosoft/Projects/CompanyYV2/CompanyYV2/obj/x86/Debug/CompanyYV2.exe
+/Users/vincentmicrosoft/Projects/CompanyYV2/CompanyYV2/obj/x86/Debug/CompanyYV2.pdb
